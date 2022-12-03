@@ -6,6 +6,7 @@
     padding:0;
     font-family: 'Poppins', sans-serif;
     background-color: aliceblue;
+    box-sizing: border-box;
 }
 
 .nav-link:hover{
@@ -42,9 +43,9 @@ skills section style start here
 
 .skill{
     width:250px;
-    border:1px solid tomato;
     padding:10px;
     margin: 20px 15px;
+    box-shadow: 3px 3px 5px #dddd;;
     
 }
 .skill img{
@@ -56,20 +57,35 @@ skills section style end here
 ==============================*/
 
 /*project section style start here*/
-/* #porjects{
+#porjects{
     margin-top:30px;
     text-align: center;
 }
 .project{
+    width:500px;
     display:flex;
-    padding:20px 20px;
+    margin-top: 30px;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 3px 5px #dddd;
+    
    
 }
-.project img{
+.porject-title{
+    width:50%;
+    
+   
+}
+.project-img{
+    width:50%;
+}
+
+.project-img img{
     width:100%;
-   height:100%;
-} */
+
+    
+}
 
 /*project section style end*/
 
