@@ -109,6 +109,50 @@ skills section style end here
     border-radius: 300px;
     
 }
-
-
 /*about section style end here*/
+
+
+
+/*message section style start here*/
+#message{
+    width:100%;
+    justify-content: center;
+    
+   
+}
+.message-box{
+    width:400px;
+    margin-left:480px;
+  
+}
+.message-input p{
+    margin-bottom: 5px;
+}
+.message-input input {
+    width: 330px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+.message-input textarea{
+    background-color: white;
+}
+.submit-button {
+    text-align: end;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: black;
+    height:30px;
+    text-align: center;
+
+}
+footer span{
+    background-color: black;
+    color:white;
+}
+
