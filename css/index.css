@@ -44,7 +44,8 @@ skills section style start here
     width:250px;
     border:1px solid tomato;
     padding:10px;
-    margin:10px 10px;
+    margin: 20px 15px;
+    
 }
 .skill img{
     width:35%;
@@ -54,4 +55,21 @@ skills section style start here
 skills section style end here
 ==============================*/
 
+/*project section style start here*/
+/* #porjects{
+    margin-top:30px;
+    text-align: center;
+}
+.project{
+    display:flex;
+    padding:20px 20px;
+    justify-content: space-between;
+   
+}
+.project img{
+    width:100%;
+   height:100%;
+} */
+
+/*project section style end*/
 
