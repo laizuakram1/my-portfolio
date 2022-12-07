@@ -145,6 +145,36 @@ skills section style end here
     margin-top: 10px;
 }
 
+input:focus { 
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+/*social linke style*/
+#social{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.social-box{
+    width:300px;
+    display:flex;
+    justify-content: center;
+    
+}
+.social.icon {
+    width: 25px;
+    margin-right: 25px;   
+}
+
+.social.icon img {
+    width: 100%;
+}
+
+
+
+
 footer{
     background-color: black;
     height:30px;
