@@ -132,6 +132,7 @@ skills section style end here
     width: 330px;
     height: 45px;
     border-radius: 3px;
+    border-style: none;
     background-color: white;
     margin-bottom: 25px;
 }
@@ -152,12 +153,12 @@ input:focus {
 }
 
 /*social linke style*/
-#social{
+/* #social{
     display: flex;
     justify-content: center;
     padding: 40px;
-}
-.social-box{
+} */
+/* .social-box{
     width:300px;
     display:flex;
     justify-content: center;
@@ -166,13 +167,22 @@ input:focus {
 .social.icon {
     width: 25px;
     margin-right: 25px;   
+} */
+
+#social-icon{
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.social.icon img {
-    width: 100%;
+#social-icon i{
+    margin-right:20px;
+    font-size: 30px;
+    transition: 0.3s;
 }
-
-
+#social-icon i:hover{
+    color:orange;
+}
 
 
 footer{
