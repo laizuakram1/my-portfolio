@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+
   <title>Laizu</title>
 
   <!-- Bootstrap CSS -->
@@ -137,7 +137,31 @@
             <div class="project-title">
               <h4>Project Name</h4>
               <p>Project description</p>
-              <Button class="btn btn-primary">Live view</Button>
+              <!-- Button trigger modal -->
+              <Button data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Details
+              </Button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <Button data-bs-dismiss="modal">Close</Button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <Button>Live view</Button>
+
             </div>
             <div class="project-img">
               <img src="../images/bootstrap.png" alt="">
@@ -147,7 +171,8 @@
             <div class="project-title">
               <h4>Project Name</h4>
               <p>Project description</p>
-              <Button class="btn btn-primary">Live view</Button>
+              <Button>Details</Button>
+              <Button>Live view</Button>
             </div>
             <div class="project-img">
               <img src="../images/JavaScript-logo.png" alt="">
@@ -157,7 +182,8 @@
             <div class="project-title">
               <h4>Project Name</h4>
               <p>Project description</p>
-              <Button class="btn btn-primary">Live view</Button>
+              <Button>Details</Button>
+              <Button>Live view</Button>
             </div>
             <div class="project-img">
               <img src="../images/JavaScript-logo.png" alt="">
@@ -167,7 +193,8 @@
             <div class="project-title">
               <h4>Project Name</h4>
               <p>Project description</p>
-              <Button class="btn btn-primary">Live view</Button>
+              <Button>Details</Button>
+              <Button>Live view</Button>
             </div>
             <div class="project-img">
               <img src="../images/JavaScript-logo.png" alt="">
@@ -177,7 +204,8 @@
             <div class="project-title">
               <h4>Project Name</h4>
               <p>Project description</p>
-              <Button class="btn btn-primary">Live view</Button>
+              <Button>Details</Button>
+              <Button>Live view</Button>
             </div>
             <div class="project-img">
               <img src="../images/JavaScript-logo.png" alt="">
@@ -187,7 +215,8 @@
             <div class="project-title">
               <h4>Project Name</h4>
               <p>Project description</p>
-              <Button class="btn btn-primary">Live view</Button>
+              <Button>Details</Button>
+              <Button>Live view</Button>
             </div>
             <div class="project-img">
               <img src="../images/JavaScript-logo.png" alt="">
@@ -203,7 +232,8 @@
     <section id="about">
       <div class="about-description">
         <h2>About Me</h2>
-        <p>Laizu Akram, Self Learner and Professional Programmer. Always I will try to learn new technology and do something different. Maximum time in the day I will spend for programming cause I love and enjoy. </p>
+        <p>Laizu Akram, Self Learner and Professional Programmer. Always I will try to learn new technology and do
+          something different. Maximum time in the day I will spend for programming cause I love and enjoy. </p>
         <Button class="btn btn-warning">Resume</Button>
       </div>
       <div class="about-image">
@@ -217,10 +247,10 @@
 
     <section id="message">
       <h2 class="text-center py-5 text-warning">Your Message</h2>
-     
+
       <div class="message-box">
         <div class="message-input">
-          <p >Name</p>
+          <p>Name</p>
           <input type="text">
         </div>
         <div class="message-input">
@@ -232,7 +262,7 @@
           <textarea cols="40" rows="5"></textarea>
         </div>
         <div class="submit-button">
-            <Button class="btn btn-warning">Send</Button>
+          <Button class="btn btn-warning">Send</Button>
         </div>
       </div>
     </section>
@@ -253,9 +283,8 @@
       <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
         <i class="fa-regular fa-envelope"></i>
       </a>
-      
-      
-      
+
+
     </section>
 
   </main>
