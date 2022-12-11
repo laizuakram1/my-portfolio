@@ -1,11 +1,12 @@
 /* googel font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Raleway:ital,wght@0,400;0,500;1,300&display=swap');
 
+
 *{
     margin:0;
     padding:0;
     font-family: 'Poppins', sans-serif;
-    background-color: #85929E;
+    background-color: #85929E ;
     box-sizing: border-box;
     color:white;
 
@@ -69,7 +70,7 @@ skills section style start here
     
 }
 .skill:hover{
-    background-color:white;
+    background-color:#FA8072;
     border-radius: 3px;
     border:none;
 }
@@ -195,8 +196,13 @@ skills section style end here
 
 input:focus { 
     outline: none !important;
-    border-color: #719ECE;
-    box-shadow: 0 0 10px #719ECE;
+    border-color: #FFA500;
+    box-shadow: 0 0 10px #FFA500;
+}
+textarea:focus{
+    outline:none !important;
+    border-color:#FFA500;
+    box-shadow: 0 0 10px #FFA500;
 }
 
 /*social linke style*/
@@ -210,7 +216,7 @@ input:focus {
 #social-icon a i{
     margin-right:20px;
     font-size: 30px;
-    color:black;
+    color:white;
     transition: 0.3s;
 }
 #social-icon a i:hover{
