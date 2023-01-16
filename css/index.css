@@ -47,6 +47,7 @@ Button:hover{
     text-align: center;
     border:2px solid #FA8072 ;
     border-radius: 10px;
+    cursor: pointer;
 }
 .banner-img{
     border:1px solid #FA8072;
@@ -77,10 +78,14 @@ skills section style start here
 .skill img{
     width:35%;
     margin-right:10px;
+    background-color: transparent;
+}
+.skill span{
+    background-color: transparent;
 }
 
 /*===============  
-skills section style end here
+ section style end here
 ==============================*/
 
 /*project section style start here*/
@@ -126,7 +131,7 @@ skills section style end here
 }
 .section-title:hover{
     background-color:#FA8072;
-    border:none;
+    border:1px solid #FA8072;
     border-radius: 5px;
     cursor:pointer;
 }
@@ -140,7 +145,11 @@ skills section style end here
     display:flex;
     justify-content: space-between;
     align-items: center;
-   margin:auto;
+    margin:auto;
+}
+#about h2{
+    border-bottom: 1px solid tomato;  
+    border-bottom-width: 10px;
 }
 .about-description{
     width:500px;
@@ -184,6 +193,7 @@ skills section style end here
 
 .message-input textarea{
     background-color: white;
+    border-radius: 3px;
 }
 .submit-button {
     text-align: end;
