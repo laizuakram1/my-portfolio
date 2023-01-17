@@ -147,10 +147,7 @@ skills section style start here
     align-items: center;
     margin:auto;
 }
-#about h2{
-    border-bottom: 1px solid tomato;  
-    border-bottom-width: 10px;
-}
+
 .about-description{
     width:500px;
 }
