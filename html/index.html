@@ -383,7 +383,7 @@
                   </div>
                 </div>
               </div>
-              <Button>Live view</Button>
+              <a href="https://velvety-cajeta-d6033e.netlify.app/" target="_blank"><Button>Live view</Button></a>
             </div>
             <div class="project-img">
               <img src="../images/JavaScript-logo.png" alt="">
@@ -438,21 +438,23 @@
       <h2 class="text-center py-5 text-warning">Your Message</h2>
 
       <div class="message-box">
+       <form method="post">
         <div class="message-input">
-          <p>Name</p>
-          <input type="text">
-        </div>
-        <div class="message-input">
-          <p>E-mail</p>
-          <input type="text" name="email">
+          <p><label for="name">Name</label></p>
+          <input type="text" name="name">
         </div>
         <div class="message-input">
-          <p>Message</p>
-          <textarea cols="42" rows="5"></textarea>
+          <p><label for="email">Email</label></p>
+          <input name="email" type="text" name="email">
         </div>
-        <div class="submit-button">
-          <Button>Send</Button>
+        <div class="message-input">
+          <p><label for="message">Message</label></p>
+          <textarea name="message" cols="42" rows="5"></textarea>
         </div>
+       <div class="submit-button">
+         <input type="button" value="submit" name="submit">
+       </div>
+       </form>
       </div>
     </section>
 
