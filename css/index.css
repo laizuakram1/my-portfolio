@@ -24,6 +24,24 @@ Button:hover{
     border:none;
     border-radius: 3px;
 }
+.resume-btn{
+    width:100px;
+    height:40px;
+    border:1px solid #FA8072;
+    border-radius: 5px;
+    padding:8px;
+    color:white;
+    font-weight:bold;
+    margin-right: 10px;
+    text-decoration: none;
+    transition:0.3s;
+}
+.resume-btn:hover{
+    background-color: #FA8072;
+    border:none;
+    border-radius: 3px;
+    color:white;
+}
 .nav-link{
     transition:0.3s;
     margin-right: 20px;
